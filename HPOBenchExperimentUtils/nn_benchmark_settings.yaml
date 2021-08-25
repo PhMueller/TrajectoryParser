@@ -1,0 +1,88 @@
+nn_10101:
+  bench_args:
+    model: nn
+    task_id: 10101
+  cutoff_in_s: 31734.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 31734.0
+nn_146818:
+  bench_args:
+    model: nn
+    task_id: 146818
+  cutoff_in_s: 19659.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 19659.0
+nn_146821:
+  bench_args:
+    model: nn
+    task_id: 146821
+  cutoff_in_s: 51127.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 51127.0
+nn_146822:
+  bench_args:
+    model: nn
+    task_id: 146822
+  cutoff_in_s: 81836.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 81836.0
+nn_31:
+  bench_args:
+    model: nn
+    task_id: 31
+  cutoff_in_s: 32009.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 32009.0
+nn_3917:
+  bench_args:
+    model: nn
+    task_id: 3917
+  cutoff_in_s: 88413.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 88413.0
+nn_53:
+  bench_args:
+    model: nn
+    task_id: 53
+  cutoff_in_s: 29040.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 29040.0
+nn_9952:
+  bench_args:
+    model: nn
+    task_id: 9952
+  cutoff_in_s: 272342.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: iter
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 272342.0

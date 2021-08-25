@@ -1,0 +1,872 @@
+lr_10101:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.22933333333333333
+  ystar_valid: 0.2188340807174888
+lr_12:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.03200000000000003
+  ystar_valid: 0.025925925925925908
+lr_146195:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.23978685612788633
+  ystar_valid: 0.24146523797657612
+lr_146212:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.06744827586206896
+  ystar_valid: 0.06729362591431558
+lr_146606:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.3613870474247832
+  ystar_valid: 0.35934892345729885
+lr_146818:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.10144927536231885
+  ystar_valid: 0.15512195121951222
+lr_146821:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.12601156069364167
+  ystar_valid: 0.11712062256809339
+lr_146822:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.14891774891774892
+  ystar_valid: 0.13653566229985442
+lr_14965:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.10044228217602831
+  ystar_valid: 0.0997467977360739
+lr_167119:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.31856314145470777
+  ystar_valid: 0.3223407451923077
+lr_167120:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.4836378737541528
+  ystar_valid: 0.47497203579418346
+lr_168329:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.6892638036809815
+  ystar_valid: 0.6857674034290435
+lr_168330:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.36809171244327676
+  ystar_valid: 0.3625477502111062
+lr_168331:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.42884582404390326
+  ystar_valid: 0.42658352098850977
+lr_168335:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.11602983009148919
+  ystar_valid: 0.11568510704393072
+lr_168868:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.008631578947368412
+  ystar_valid: 0.009365585681375155
+lr_168908:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.2701107011070111
+  ystar_valid: 0.2740372670807454
+lr_168909:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.08139999999999996
+  ystar_valid: 0.04323232323232325
+lr_168910:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.3349514563106796
+  ystar_valid: 0.3450756027789129
+lr_168911:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.2080267558528428
+  ystar_valid: 0.22435174746335962
+lr_168912:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.10643274853801173
+  ystar_valid: 0.0804204993429698
+lr_3:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.03187499999999999
+  ystar_valid: 0.030736842105263153
+lr_31:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.244
+  ystar_valid: 0.2612794612794612
+lr_3917:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.13459715639810427
+  ystar_valid: 0.1406698564593301
+lr_53:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.20470588235294115
+  ystar_valid: 0.2563492063492063
+lr_7592:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.14706243602865918
+  ystar_valid: 0.15429477457603752
+lr_9952:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.24251386321626614
+  ystar_valid: 0.22928348909657323
+lr_9977:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.050594720046417165
+  ystar_valid: 0.052540054708870666
+lr_9981:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.04444444444444447
+  ystar_valid: 0.06168224299065421
+nn_10101:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.20533333333333337
+  ystar_valid: 0.16860986547085202
+nn_146818:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09565217391304351
+  ystar_valid: 0.05463414634146342
+nn_146821:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.0
+  ystar_valid: 0.0
+nn_146822:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.049350649350649325
+  ystar_valid: 0.031441048034934506
+nn_31:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.20599999999999996
+  ystar_valid: 0.08956228956228955
+nn_3917:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.11943127962085306
+  ystar_valid: 0.066347687400319
+nn_53:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.10117647058823527
+  ystar_valid: 0.049206349206349184
+nn_9952:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09611829944547132
+  ystar_valid: 0.043738317757009336
+rf_10101:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.21066666666666664
+  ystar_valid: 0.14887892376681616
+rf_12:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.029000000000000026
+  ystar_valid: 0.01279461279461278
+rf_146195:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.1738306690349319
+  ystar_valid: 0.06473959631198604
+rf_146212:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.00017241379310342086
+  ystar_valid: 3.4831069313856486e-05
+rf_146606:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.2755124936257012
+  ystar_valid: 0.10176848322516396
+rf_146818:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.08985507246376812
+  ystar_valid: 0.04975609756097563
+rf_146821:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.025433526011560702
+  ystar_valid: 0.010894941634241206
+rf_146822:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.06666666666666668
+  ystar_valid: 0.022998544395924303
+rf_14965:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09500221141088012
+  ystar_valid: 0.03501638367590112
+rf_167119:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.16398929049531458
+  ystar_valid: 0.0734675480769231
+rf_167120:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.4837001661129568
+  ystar_valid: 0.17634927293064875
+rf_168329:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.6345092024539877
+  ystar_valid: 0.23547820698202848
+rf_168330:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.29429185574396943
+  ystar_valid: 0.10816679400056295
+rf_168908:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.2660516605166051
+  ystar_valid: 0.09689440993788818
+rf_168910:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.3837378640776699
+  ystar_valid: 0.18757662443808745
+rf_168911:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.18327759197324414
+  ystar_valid: 0.06786922209695605
+rf_168912:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.06549707602339183
+  ystar_valid: 0.01681997371879107
+rf_3:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.003750000000000031
+  ystar_valid: 0.0008421052631579107
+rf_31:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.202
+  ystar_valid: 0.09562289562289561
+rf_3917:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.13080568720379146
+  ystar_valid: 0.06251993620414668
+rf_53:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.20941176470588235
+  ystar_valid: 0.08492063492063488
+rf_7592:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.13432958034800407
+  ystar_valid: 0.05483248311043709
+rf_9952:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.10129390018484286
+  ystar_valid: 0.03526479750778817
+rf_9977:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.03191180736872643
+  ystar_valid: 0.012211801484955065
+rf_9981:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.031481481481481485
+  ystar_valid: 0.014953271028037386
+svm_10101:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.21600000000000003
+  ystar_valid: 0.22062780269058296
+svm_12:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.03400000000000003
+  ystar_valid: 0.03265993265993265
+svm_146195:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.14884547069271759
+  ystar_valid: 0.05441315723897331
+svm_146212:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.0010000000000000009
+  ystar_valid: 0.000963659584349208
+svm_146606:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.3106170321264661
+  ystar_valid: 0.12283918821469045
+svm_146818:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09275362318840581
+  ystar_valid: 0.1453658536585366
+svm_146821:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.017341040462427747
+  ystar_valid: 0.021789883268482503
+svm_146822:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.06839826839826839
+  ystar_valid: 0.0809315866084425
+svm_14965:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.0970809376382132
+  ystar_valid: 0.09776586237712244
+svm_167119:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.14123159303882196
+  ystar_valid: 0.14384014423076924
+svm_167120:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.48164451827242527
+  ystar_valid: 0.3680718680089486
+svm_168329:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.6441104294478528
+  ystar_valid: 0.6446601941747572
+svm_168330:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.3145211368521614
+  ystar_valid: 0.12128352567453456
+svm_168331:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.31696107014234265
+  ystar_valid: 0.11429066343322362
+svm_168335:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.06854770508187899
+  ystar_valid: 0.040415232079525756
+svm_168868:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.00736842105263158
+  ystar_valid: 0.003517632465000875
+svm_168908:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.25424354243542435
+  ystar_valid: 0.09652173913043476
+svm_168909:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.018800000000000018
+  ystar_valid: 0.007878787878787864
+svm_168910:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.320873786407767
+  ystar_valid: 0.13289742541888025
+svm_168911:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.20602006688963206
+  ystar_valid: 0.20766629086809468
+svm_168912:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09512670565302148
+  ystar_valid: 0.06780551905387651
+svm_3:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.007500000000000018
+  ystar_valid: 0.014105263157894754
+svm_31:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.21399999999999997
+  ystar_valid: 0.25387205387205386
+svm_3917:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.13459715639810427
+  ystar_valid: 0.14354066985645936
+svm_53:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.16705882352941176
+  ystar_valid: 0.18809523809523812
+svm_7592:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.14079836233367451
+  ystar_valid: 0.08679167241141594
+svm_9952:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.11645101663585951
+  ystar_valid: 0.127601246105919
+svm_9977:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.03852625471424429
+  ystar_valid: 0.018522860492379833
+svm_9981:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09074074074074075
+  ystar_valid: 0.12585669781931466
+xgb_10101:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.22133333333333333
+  ystar_valid: 0.15426008968609867
+xgb_12:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.026000000000000023
+  ystar_valid: 0.008754208754208759
+xgb_146212:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 6.896551724135946e-05
+  ystar_valid: 0.0
+xgb_146606:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.2685364609892912
+  ystar_valid: 0.09904879640122248
+xgb_146818:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.10144927536231885
+  ystar_valid: 0.04878048780487809
+xgb_146821:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.009248554913294816
+  ystar_valid: 0.005447470817120603
+xgb_146822:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.06493506493506493
+  ystar_valid: 0.020669577874818046
+xgb_14965:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09044670499778858
+  ystar_valid: 0.035582365207030064
+xgb_167119:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.13377956269522534
+  ystar_valid: 0.05371093750000002
+xgb_167120:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.4880398671096346
+  ystar_valid: 0.17863534675615209
+xgb_168911:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.188628762541806
+  ystar_valid: 0.06719278466741826
+xgb_168912:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.062378167641325574
+  ystar_valid: 0.014848883048620243
+xgb_3:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.004375000000000018
+  ystar_valid: 0.0021052631578947433
+xgb_31:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.21199999999999997
+  ystar_valid: 0.09898989898989899
+xgb_3917:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.13933649289099526
+  ystar_valid: 0.06124401913875599
+xgb_53:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.16705882352941176
+  ystar_valid: 0.07936507936507935
+xgb_9952:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.09833641404805915
+  ystar_valid: 0.03738317757009344
+xgb_9981:
+  xlim_lo: 0.1
+  xscale: log
+  ylim_lo: 0
+  ylim_up: 1
+  yscale: log
+  ystar_test: 0.04629629629629628
+  ystar_valid: 0.02429906542056075

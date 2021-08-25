@@ -1,0 +1,275 @@
+rf_10101:
+  bench_args:
+    model: rf
+    task_id: 10101
+  cutoff_in_s: 500.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 500.0
+rf_12:
+  bench_args:
+    model: rf
+    task_id: 12
+  cutoff_in_s: 4562.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 4562.0
+rf_146195:
+  bench_args:
+    model: rf
+    task_id: 146195
+  cutoff_in_s: 27803.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 27803.0
+rf_146212:
+  bench_args:
+    model: rf
+    task_id: 146212
+  cutoff_in_s: 8064.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 8064.0
+rf_146606:
+  bench_args:
+    model: rf
+    task_id: 146606
+  cutoff_in_s: 116458.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 116458.0
+rf_146818:
+  bench_args:
+    model: rf
+    task_id: 146818
+  cutoff_in_s: 531.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 531.0
+rf_146821:
+  bench_args:
+    model: rf
+    task_id: 146821
+  cutoff_in_s: 565.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 565.0
+rf_146822:
+  bench_args:
+    model: rf
+    task_id: 146822
+  cutoff_in_s: 1177.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 1177.0
+rf_14965:
+  bench_args:
+    model: rf
+    task_id: 14965
+  cutoff_in_s: 13985.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 13985.0
+rf_167119:
+  bench_args:
+    model: rf
+    task_id: 167119
+  cutoff_in_s: 5485.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 5485.0
+rf_167120:
+  bench_args:
+    model: rf
+    task_id: 167120
+  cutoff_in_s: 93386.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 93386.0
+rf_168329:
+  bench_args:
+    model: rf
+    task_id: 168329
+  cutoff_in_s: 166020.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 166020.0
+rf_168330:
+  bench_args:
+    model: rf
+    task_id: 168330
+  cutoff_in_s: 206181.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 206181.0
+rf_168908:
+  bench_args:
+    model: rf
+    task_id: 168908
+  cutoff_in_s: 115234.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 115234.0
+rf_168910:
+  bench_args:
+    model: rf
+    task_id: 168910
+  cutoff_in_s: 30373.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 30373.0
+rf_168911:
+  bench_args:
+    model: rf
+    task_id: 168911
+  cutoff_in_s: 1758.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 1758.0
+rf_168912:
+  bench_args:
+    model: rf
+    task_id: 168912
+  cutoff_in_s: 2661.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 2661.0
+rf_3:
+  bench_args:
+    model: rf
+    task_id: 3
+  cutoff_in_s: 813.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 813.0
+rf_31:
+  bench_args:
+    model: rf
+    task_id: 31
+  cutoff_in_s: 588.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 588.0
+rf_3917:
+  bench_args:
+    model: rf
+    task_id: 3917
+  cutoff_in_s: 868.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 868.0
+rf_53:
+  bench_args:
+    model: rf
+    task_id: 53
+  cutoff_in_s: 635.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 635.0
+rf_7592:
+  bench_args:
+    model: rf
+    task_id: 7592
+  cutoff_in_s: 17516.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 17516.0
+rf_9952:
+  bench_args:
+    model: rf
+    task_id: 9952
+  cutoff_in_s: 1776.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 1776.0
+rf_9977:
+  bench_args:
+    model: rf
+    task_id: 9977
+  cutoff_in_s: 28490.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 28490.0
+rf_9981:
+  bench_args:
+    model: rf
+    task_id: 9981
+  cutoff_in_s: 958.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 958.0

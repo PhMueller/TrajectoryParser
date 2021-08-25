@@ -1,6 +1,27 @@
-import argparse
 import os
+import argparse
+import itertools
 from hpobench.util.openml_data_manager import get_openmlcc18_taskids
+
+
+all_task_ids_by_in_mem_size = [
+    10101, 53, 146818, 146821, 9952, 146822, 31, 3917, 168912, 3, 167119, 12, 146212, 168911,
+    9981, 168329, 167120, 14965, 146606,  # < 30 MB
+    168330, 7592, 9977, 168910, 168335, 146195, 168908, 168331,  # 30-100 MB
+    168868, 168909, 189355, 146825, 7593,  # 100-500 MB
+    168332, 168337, 168338,  # > 500 MB
+    189354, 34539,  # > 2.5k MB
+    3945,  # >20k MB
+    # 189356  # MemoryError: Unable to allocate 1.50 TiB; array size (256419, 802853) of type float64
+]
+
+ntasks_done = dict(
+    svm=30,
+    lr=30,
+    rf=30,
+    xgb=30,
+    nn=30
+)
 
 expset_dc = {
     "NAS201": ["Cifar10ValidNasBench201Benchmark", "Cifar100NasBench201Benchmark",
@@ -27,6 +48,31 @@ expset_dc = {
     "seeds": ["NASCifar10ABenchmark_fixed_seed_0", "NASCifar10ABenchmark_random_seed",
               "ProteinStructureBenchmark_fixed_seed_0", "ProteinStructureBenchmark_random_seed",
               "Cifar10ValidNasBench201Benchmark_fixed_seed_777", "Cifar10ValidNasBench201Benchmark_random_seed", ],
+    "tabular_svm": [
+        "{}_{}".format(x[0], x[1]) for x in itertools.product(
+            *[["svm"], all_task_ids_by_in_mem_size[:ntasks_done["svm"]]]
+        )
+    ],
+    "tabular_lr": [
+        "{}_{}".format(x[0], x[1]) for x in itertools.product(
+            *[["lr"], all_task_ids_by_in_mem_size[:ntasks_done["lr"]]]
+        )
+    ],
+    "tabular_nn": [
+        "{}_{}".format(x[0], x[1]) for x in itertools.product(
+            *[["nn"], all_task_ids_by_in_mem_size[:ntasks_done["nn"]]]
+        )
+    ],
+    "tabular_xgb": [
+        "{}_{}".format(x[0], x[1]) for x in itertools.product(
+            *[["xgb"], all_task_ids_by_in_mem_size[:ntasks_done["xgb"]]]
+        )
+    ],
+    "tabular_rf": [
+        "{}_{}".format(x[0], x[1]) for x in itertools.product(
+            *[["rf"], all_task_ids_by_in_mem_size[:ntasks_done["rf"]]]
+        )
+    ],
 }
 
 opt_set = {

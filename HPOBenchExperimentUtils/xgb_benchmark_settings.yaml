@@ -1,0 +1,198 @@
+xgb_10101:
+  bench_args:
+    model: xgb
+    task_id: 10101
+  cutoff_in_s: 418.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 418.0
+xgb_12:
+  bench_args:
+    model: xgb
+    task_id: 12
+  cutoff_in_s: 50303.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 50303.0
+xgb_146212:
+  bench_args:
+    model: xgb
+    task_id: 146212
+  cutoff_in_s: 84168.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 84168.0
+xgb_146606:
+  bench_args:
+    model: xgb
+    task_id: 146606
+  cutoff_in_s: 405996.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 405996.0
+xgb_146818:
+  bench_args:
+    model: xgb
+    task_id: 146818
+  cutoff_in_s: 729.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 729.0
+xgb_146821:
+  bench_args:
+    model: xgb
+    task_id: 146821
+  cutoff_in_s: 3473.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 3473.0
+xgb_146822:
+  bench_args:
+    model: xgb
+    task_id: 146822
+  cutoff_in_s: 7328.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 7328.0
+xgb_14965:
+  bench_args:
+    model: xgb
+    task_id: 14965
+  cutoff_in_s: 115099.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 115099.0
+xgb_167119:
+  bench_args:
+    model: xgb
+    task_id: 167119
+  cutoff_in_s: 85345.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 85345.0
+xgb_167120:
+  bench_args:
+    model: xgb
+    task_id: 167120
+  cutoff_in_s: 320684.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 320684.0
+xgb_168911:
+  bench_args:
+    model: xgb
+    task_id: 168911
+  cutoff_in_s: 18752.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 18752.0
+xgb_168912:
+  bench_args:
+    model: xgb
+    task_id: 168912
+  cutoff_in_s: 4883.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 4883.0
+xgb_3:
+  bench_args:
+    model: xgb
+    task_id: 3
+  cutoff_in_s: 5303.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 5303.0
+xgb_31:
+  bench_args:
+    model: xgb
+    task_id: 31
+  cutoff_in_s: 1598.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 1598.0
+xgb_3917:
+  bench_args:
+    model: xgb
+    task_id: 3917
+  cutoff_in_s: 2159.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 2159.0
+xgb_53:
+  bench_args:
+    model: xgb
+    task_id: 53
+  cutoff_in_s: 1869.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 1869.0
+xgb_9952:
+  bench_args:
+    model: xgb
+    task_id: 9952
+  cutoff_in_s: 3588.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 3588.0
+xgb_9981:
+  bench_args:
+    model: xgb
+    task_id: 9981
+  cutoff_in_s: 113329.0
+  import_benchmark: TabularBenchmark
+  import_from: ml.tabular_benchmark
+  is_surrogate: true
+  main_fidelity: n_estimators
+  mem_limit_in_mb: 6000
+  time_limit_in_s: 113329.0

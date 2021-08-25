@@ -63,10 +63,12 @@ def get_optimizer_setting(optimizer_setting_str: str) -> Dict:
 
 def load_benchmark_settings() -> Dict:
     """ Load the experiment settings from file """
-    experiment_settings_path = Path(__file__).absolute().parent.parent / 'benchmark_settings.yaml'
+    experiment_settings_path = Path(__file__).absolute().parent.parent.glob("*benchmark_settings.yaml")
 
-    with experiment_settings_path.open('r') as fh:
-        experiment_settings = yaml.load(fh, yaml.FullLoader)
+    experiment_settings = dict()
+    for yaml_file in experiment_settings_path:
+        with yaml_file.open('r') as fh:
+            experiment_settings.update(yaml.load(fh, yaml.FullLoader))
 
     return experiment_settings
 

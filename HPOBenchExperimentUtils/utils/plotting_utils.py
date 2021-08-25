@@ -1,3 +1,5 @@
+import yaml
+from pathlib import Path
 import matplotlib.pyplot as plt
 
 plot_dc = {
@@ -500,6 +502,9 @@ plot_dc = {
         "ystar_test": 8.476666666666674,    
     },
 }
+with open(Path(__file__).absolute().parent / "tabular_plot_config.yaml", "r") as f:
+    temp = yaml.load(f, Loader=yaml.FullLoader)
+plot_dc.update(temp)
 
 color_dc = {
     "mint": '#1b9e77',
@@ -603,6 +608,46 @@ benchmark_families = {
         "ParamNetReducedAdultOnTimeBenchmark", "ParamNetReducedHiggsOnTimeBenchmark",
         "ParamNetReducedLetterOnTimeBenchmark", "ParamNetReducedMnistOnTimeBenchmark",
         "ParamNetReducedOptdigitsOnTimeBenchmark", "ParamNetReducedPokerOnTimeBenchmark", ],
+    "tabular_svm": [
+        'svm_10101', 'svm_53', 'svm_146818', 'svm_146821', 'svm_9952', 'svm_146822', 'svm_31',
+        'svm_3917', 'svm_168912', 'svm_3', 'svm_167119', 'svm_12', 'svm_146212', 'svm_168911',
+        'svm_9981', 'svm_168329', 'svm_167120', 'svm_14965', 'svm_146606', 'svm_168330',
+        'svm_7592', 'svm_9977', 'svm_168910', 'svm_168335', 'svm_146195', 'svm_168908',
+        'svm_168331', 'svm_168868', 'svm_168909', 'svm_189355', 'svm_146825', 'svm_7593',
+        'svm_168332', 'svm_168337', 'svm_168338', 'svm_189354', 'svm_34539', 'svm_3945'
+    ],
+    "tabular_lr": [
+        'lr_10101', 'lr_53', 'lr_146818', 'lr_146821', 'lr_9952', 'lr_146822', 'lr_31',
+        'lr_3917', 'lr_168912', 'lr_3', 'lr_167119', 'lr_12', 'lr_146212', 'lr_168911',
+        'lr_9981', 'lr_168329', 'lr_167120', 'lr_14965', 'lr_146606', 'lr_168330', 'lr_7592',
+        'lr_9977', 'lr_168910', 'lr_168335', 'lr_146195', 'lr_168908', 'lr_168331', 'lr_168868',
+        'lr_168909', 'lr_189355', 'lr_146825', 'lr_7593', 'lr_168332', 'lr_168337', 'lr_168338',
+        'lr_189354', 'lr_34539', 'lr_3945'
+    ],
+    "tabular_rf": [
+        'rf_10101', 'rf_53', 'rf_146818', 'rf_146821', 'rf_9952', 'rf_146822', 'rf_31',
+        'rf_3917', 'rf_168912', 'rf_3', 'rf_167119', 'rf_12', 'rf_146212', 'rf_168911',
+        'rf_9981', 'rf_168329', 'rf_167120', 'rf_14965', 'rf_146606', 'rf_168330', 'rf_7592',
+        'rf_9977', 'rf_168910', 'rf_168335', 'rf_146195', 'rf_168908', 'rf_168331', 'rf_168868',
+        'rf_168909', 'rf_189355', 'rf_146825', 'rf_7593', 'rf_168332', 'rf_168337', 'rf_168338',
+        'rf_189354', 'rf_34539', 'rf_3945'
+    ],
+    "tabular_xgb": [
+        'xgb_10101', 'xgb_53', 'xgb_146818', 'xgb_146821', 'xgb_9952', 'xgb_146822', 'xgb_31',
+        'xgb_3917', 'xgb_168912', 'xgb_3', 'xgb_167119', 'xgb_12', 'xgb_146212', 'xgb_168911',
+        'xgb_9981', 'xgb_168329', 'xgb_167120', 'xgb_14965', 'xgb_146606', 'xgb_168330',
+        'xgb_7592', 'xgb_9977', 'xgb_168910', 'xgb_168335', 'xgb_146195', 'xgb_168908',
+        'xgb_168331', 'xgb_168868', 'xgb_168909', 'xgb_189355', 'xgb_146825', 'xgb_7593',
+        'xgb_168332', 'xgb_168337', 'xgb_168338', 'xgb_189354', 'xgb_34539', 'xgb_3945'
+    ],
+    "tabular_nn": [
+        'nn_10101', 'nn_53', 'nn_146818', 'nn_146821', 'nn_9952', 'nn_146822', 'nn_31', 
+        'nn_3917', 'nn_168912', 'nn_3', 'nn_167119', 'nn_12', 'nn_146212', 'nn_168911', 
+        'nn_9981', 'nn_168329', 'nn_167120', 'nn_14965', 'nn_146606', 'nn_168330', 'nn_7592', 
+        'nn_9977', 'nn_168910', 'nn_168335', 'nn_146195', 'nn_168908', 'nn_168331', 'nn_168868', 
+        'nn_168909', 'nn_189355', 'nn_146825', 'nn_7593', 'nn_168332', 'nn_168337', 'nn_168338', 
+        'nn_189354', 'nn_34539', 'nn_3945'
+    ],
 }
 
 benchmark_dc = {
