@@ -61,39 +61,22 @@ def main(args, opt_list, get_stats_flag: bool = True):
 
 if __name__ == "__main__":
     opt_list = dict()
-    opt_list["rs"] = ["randomsearch"]
-    # opt_list["smacpaper"] = ["dragonfly_default", "smac_sf", "smac_hb_eta_3", "randomsearch", "hpbandster_hb_eta_3"]
+    opt_list['main_sf'] = ['randomsearch', 'de', 'smac_bo', 'smac_sf', 'ray_hyperopt', 'hpbandster_tpe']
+    opt_list['main_mf'] = ['hpbandster_hb_eta_3', 'hpbandster_bohb_eta_3', 'dehb', 
+                           'smac_hb_eta_3', 'dragonfly_default', 'ray_hyperopt_asha'] # no 'optuna_tpe_median' and 'optuna_tpe_hb'
+    
+    # lists for the main paper
+    opt_list['table3'] = opt_list['main_sf'] + opt_list['main_mf'] # table
+    opt_list['fig4_sf'] = opt_list['main_sf'] # ranking across all benchs
+    opt_list['fig4_mf'] = opt_list['main_mf'] # ranking across all benchs
+    opt_list['fig5bohb'] = ['randomsearch', 'hpbandster_tpe', 'hpbandster_hb_eta_3', 'hpbandster_bohb_eta_3'] # ranking across all benchs
+    opt_list['fig5dehb'] = ['randomsearch', 'de', 'hpbandster_hb_eta_3', 'dehb'] # ranking across all benchs
 
-    opt_list['tab_main'] = ['randomsearch', 'smac_bo', 'smac_sf',
-                            'hpbandster_hb_eta_3', 'smac_hb_eta_3', 'hpbandster_bohb_eta_3', 'dehb',
-                            'dragonfly_default', 'autogluon', "ray_hyperopt_asha", "optuna_tpe_median"]
-
-    opt_list['tab_app_sf'] = ["randomsearch", "smac_bo", "smac_sf", "hpbandster_tpe", "de", "ray_hyperopt"]
-    opt_list['tab_app_mf'] = ["hpbandster_hb_eta_3", "smac_hb_eta_3", "hpbandster_bohb_eta_3", "dehb", "dragonfly_default",
-                              "autogluon", "ray_hyperopt_asha", "optuna_tpe_median", "optuna_tpe_hb"]
-
-    opt_list['sf'] = ['randomsearch', 'smac_bo', 'smac_sf', 'ray_hyperopt', 'de']
-    opt_list['mf'] = ['hpbandster_hb_eta_3', 'smac_hb_eta_3', 'hpbandster_bohb_eta_3', 'dehb', 'dragonfly_default',
-                      'autogluon']
-    opt_list['plots_combined'] = opt_list['sf'] + opt_list['mf']
-
-    opt_list["base"] = ['randomsearch', 'hpbandster_hb_eta_3']
-    opt_list["smacs"] = opt_list["base"] + ["smac_sf", "smac_hb_eta_3"]
-    opt_list["bohbs"] = opt_list["base"] + ["hpbandster_tpe", "hpbandster_bohb_eta_3"]
-    opt_list["dehbs"] = opt_list["base"] + ["de", "dehb"]
-
-    opt_list['all_opts'] = [
-        # Random Search
-        "randomsearch", "ray_randomsearch",
-        # Single Fidelity
-        "smac_bo", "smac_sf", "hpbandster_tpe", "de", "ray_hyperopt",
-        # Multi Fidelity freiburg
-        "hpbandster_hb_eta_3", "smac_hb_eta_3", "hpbandster_bohb_eta_3", "dehb",
-        # Multi Fidelity Not-Freiburg
-        "dragonfly_default", "autogluon", "ray_hyperopt_asha", "optuna_tpe_median", "optuna_tpe_hb"
-    ]
-
-    opt_list['all'] = opt_list['all_opts']
+    # lists for the appendix
+    opt_list['all_sf'] = ['randomsearch', 'de', 'smac_bo', 'smac_sf', 'ray_hyperopt', 'hpbandster_tpe'] # table + trajectory per bench + ranking per bench
+    opt_list['all_mf'] = ['hpbandster_hb_eta_3', 'hpbandster_bohb_eta_3', 'dehb', 'smac_hb_eta_3', 
+                          'dragonfly_default', 'ray_hyperopt_asha', 'optuna_tpe_median', 'optuna_tpe_hb'] # table + trajectory per bench + ranking per bench
+    opt_list['all_all'] = opt_list['all_sf'] + opt_list['all_mf']
 
     parser = argparse.ArgumentParser(prog='HPOBench Wrapper - Plotting tool',
                                      description='Plot the trajectories')

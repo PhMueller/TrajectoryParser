@@ -628,7 +628,7 @@ benchmark_families = {
                "NavalPropulsionBenchmark", "ParkinsonsTelemonitoringBenchmark", ],
     "NAS1SHOT1": ["NASBench1shot1SearchSpace1Benchmark", "NASBench1shot1SearchSpace2Benchmark",
                   "NASBench1shot1SearchSpace3Benchmark", ],
-    "pybnn": ["BNNOnBostonHousing", "BNNOnProteinStructure", "BNNOnYearPrediction", ],
+    "pybnn": ["BNNOnProteinStructure", "BNNOnYearPrediction", ], # "BNNOnBostonHousing", 
     "rl": ["cartpolereduced"],
     "learna": ["metalearna",
                "learna"],
@@ -640,6 +640,13 @@ benchmark_families = {
         "ParamNetReducedLetterOnTimeBenchmark", "ParamNetReducedMnistOnTimeBenchmark",
         "ParamNetReducedOptdigitsOnTimeBenchmark", "ParamNetReducedPokerOnTimeBenchmark", ],
 }
+benchmark_families["all"] = benchmark_families["NAS201"] \
+                                + benchmark_families["NAS101"] \
+                                + benchmark_families["NASTAB"] \
+                                + benchmark_families["NAS1SHOT1"] \
+                                + benchmark_families["pybnn"] \
+                                + benchmark_families["paramnettimered"] \
+                                + benchmark_families["rl"]
 
 benchmark_dc = {
     "Cifar10ValidNasBench201Benchmark": "NB201 - Cifar10",
@@ -655,7 +662,7 @@ benchmark_dc = {
     "NASBench1shot1SearchSpace1Benchmark":  "NB1Shot1 - 1",
     "NASBench1shot1SearchSpace2Benchmark":  "NB1Shot1 - 2",
     "NASBench1shot1SearchSpace3Benchmark":  "NB1Shot1 - 3",
-    "BNNOnBostonHousing":  "BNN - Boston",
+    #"BNNOnBostonHousing":  "BNN - Boston",
     "BNNOnProteinStructure":  "BNN - Protein",
     "BNNOnYearPrediction":  "BNN - Year",
     "cartpolereduced":  "cartpole reduced",

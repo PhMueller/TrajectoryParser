@@ -29,7 +29,7 @@ exclude = [['SurrogateSVMBenchmark', 'autogluon'],
 
 
 def read_trajectories(benchmark: str, input_dir: Path, output_dir: Path, train: bool=True,
-                      which: str="v1", opt_list: Union[List[str], None] = None,):
+                      which: str="v1", opt_list: Union[List[str], None] = None, normalize_times_by=1):
     input_dir = Path(input_dir) / benchmark
     assert input_dir.is_dir(), f'Result folder doesn\"t exist: {input_dir}'
 
@@ -52,7 +52,7 @@ def read_trajectories(benchmark: str, input_dir: Path, output_dir: Path, train: 
         trs = load_json_files(unique_optimizer[key])
         series_list = []
         for t in trs:
-            times = np.array([r["total_time_used"] for r in t[1:]])
+            times = np.array([r["total_time_used"] for r in t[1:]]) / normalize_times_by
             vals = np.array([r["function_value"] for r in t[1:]])
             series_list.append(pd.Series(data=vals, index=times))
         series = pd.concat(series_list, axis=1)
@@ -79,6 +79,19 @@ def read_trajectories(benchmark: str, input_dir: Path, output_dir: Path, train: 
             logger.warning(ex_str)
             (output_dir / 'missing_columns.txt').write_text(ex_str)
 
+
+        if normalize_times_by != 1:
+            # Here we assume max timestep is 1 and we discretize 
+            # because we're handling a large ranking plot
+            steps = 10**np.linspace(-6, 0, 200)
+            series = series.transpose()
+            for step in steps:
+                if step > 0:
+                    series[step] = np.NaN
+            a = series.sort_index(axis=1).ffill(axis=1)
+            a = a.loc[:,steps]
+            series = a
+            series = series.transpose()
         trajectories.append(series)
     return trajectories
 
@@ -107,16 +120,27 @@ def plot_ranks(benchmarks: List[str], familyname: str, output_dir: Union[Path, s
     benchmark_spec = plot_dc.get(benchmarks[0], {})
     benchmark_settings = get_benchmark_settings(benchmarks[0])
 
+
+
     all_trajectories = []
     horizon = []
     x_lo = []
     for b in benchmarks:
         benchmark_settings = get_benchmark_settings(b)
-        horizon.append(benchmark_settings['time_limit_in_s'])
-        x_lo.append(benchmark_spec.get("xlim_lo", 1))
+        tmp_horizon = benchmark_settings['time_limit_in_s']
+        if familyname == "all":
+            # we need to normalize time stamps and x-axis = fraction of budget
+            normalize_times_by = tmp_horizon
+            tmp_horizon = 1
+        else:
+            normalize_times_by = 1
+
         tr = read_trajectories(benchmark=b, input_dir=input_dir, train=unvalidated, which=which,
-                               opt_list=opt_list, output_dir=output_dir)
+                               opt_list=opt_list, output_dir=output_dir, normalize_times_by=normalize_times_by)
         all_trajectories.append(tr)
+        horizon.append(tmp_horizon)
+        x_lo.append(benchmark_spec.get("xlim_lo", 1))
+        
     assert len(set(horizon)) == 1
     horizon = int(horizon[0])
     _log.info(f"Handling horizon: {horizon}sec")
@@ -134,12 +158,12 @@ def plot_ranks(benchmarks: List[str], familyname: str, output_dir: Union[Path, s
 
     for i in range(n_iter):
         if i % 500 == 0: print("%d / %d" % (i, n_iter))
-        if paired:
-            pick = np.ones(len(opt_list), dtype=np.int) * i
-        else:
-            pick = np.random.choice(all_trajectories[0][0].shape[1],
-                                    size=(len(opt_list)))
         for j in range(n_tasks):
+            if paired:
+                pick = np.ones(len(opt_list), dtype=np.int) * i
+            else:
+                # Allow different amount of runs per optimizers
+                pick = [np.random.choice(all_trajectories[j][k].shape[1]) for k in range(len(opt_list))]
             all_trajectories_tmp = pd.DataFrame(
                 {opt_list[k]: at.iloc[:, pick[k]] for
                  k, at in enumerate(all_trajectories[j])}
@@ -181,11 +205,16 @@ def plot_ranks(benchmarks: List[str], familyname: str, output_dir: Union[Path, s
         plt.xlabel("Simulated runtime in seconds")
     else:
         plt.xlabel("Runtime in seconds")
-    ax.set_ylabel(f"{criterion.capitalize()} rank")
-    
-    ax.set_ylim([0.9, len(opt_list)+0.1])
-    ax.set_xlim([x_lo, horizon])
+
+    if familyname == "all":
+        plt.xlabel("Fraction of budget")
+        ax.set_xlim([10**-6, 1])
+    else:
+        ax.set_xlim([x_lo, horizon])
     ax.set_xscale(benchmark_spec.get("xscale", "log"))
+    ax.set_ylabel(f"{criterion.capitalize()} rank")
+    ax.set_ylim([0.9, len(opt_list)+0.1])
+    
 
     unify_layout(ax, title=None, add_legend=False)
     val_str = 'optimized' if unvalidated else 'validated'
